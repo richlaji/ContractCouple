@@ -1,23 +1,24 @@
 //
-//  MainViewController.m
+//  MeViewController.m
 //  ContractCouple
 //
 //  Created by 张泽昕 on 16/5/30.
 //  Copyright © 2016年 张泽昕. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "MeViewController.h"
 
-@interface MainViewController ()
+@interface MeViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation MeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.tabBarItem.selectedImage = [[UIImage imageNamed:@"menu_me_on"]
+                                  imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  LovingViewController.h
 //  ContractCouple
 //
 //  Created by 张泽昕 on 16/5/30.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface MainViewController : UITabBarController
+@interface LovingViewController : UIViewController
 
 @end

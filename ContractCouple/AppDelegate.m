@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //TabBarItem选中字体颜色
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:236.0/255.0 green:67.0/255.0 blue:108.0/255.0 alpha:1.0]}
+                                             forState:UIControlStateSelected];
     return YES;
 }
 

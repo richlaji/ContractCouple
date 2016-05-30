@@ -1,23 +1,23 @@
 //
-//  MainViewController.m
+//  DiscoverViewController.m
 //  ContractCouple
 //
 //  Created by 张泽昕 on 16/5/30.
 //  Copyright © 2016年 张泽昕. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "DiscoverViewController.h"
 
-@interface MainViewController ()
+@interface DiscoverViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation DiscoverViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    //self.tabBarItem.selectedImage = [[UIImage imageNamed:@""]]
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,25 +1,123 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rBa-gr-QGT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--发现-->
+        <scene sceneID="bLu-EP-jYf">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController title="发现" id="jk9-8T-PcG" customClass="DiscoverViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cZw-LT-M6z"/>
+                        <viewControllerLayoutGuide type="bottom" id="K36-mk-0Qq"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="QJc-Di-hz1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="发现" image="menu_find" selectedImage="menu_find" id="mri-gg-vW3">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3L6-0w-6hc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="320" y="627"/>
+        </scene>
+        <!--恋爱-->
+        <scene sceneID="Weu-fN-lxj">
+            <objects>
+                <viewController title="恋爱" id="942-FO-2gh" customClass="LovingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nub-vd-jZL"/>
+                        <viewControllerLayoutGuide type="bottom" id="cOY-By-H9P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QG0-eS-QBv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="恋爱" image="menu_love" selectedImage="menu_love_on" id="xxn-8O-JiV">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMR-mE-7Zc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="-33"/>
+        </scene>
+        <!--我-->
+        <scene sceneID="bJF-nI-mco">
+            <objects>
+                <viewController title="我" id="yBB-eP-v9j" customClass="MeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QQP-UQ-AuW"/>
+                        <viewControllerLayoutGuide type="bottom" id="PVG-B0-zAz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rz0-aF-uYb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我" image="menu_me" selectedImage="menu_me_on" id="OWc-e2-TJb">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYe-du-E6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-396" y="-424"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="SLR-LV-MsE">
+            <objects>
+                <tabBarController id="rBa-gr-QGT" customClass="MainViewController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="LgD-m6-bYL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="942-FO-2gh" kind="relationship" relationship="viewControllers" id="Jo3-lk-bWe"/>
+                        <segue destination="jk9-8T-PcG" kind="relationship" relationship="viewControllers" id="j2G-9g-LCf"/>
+                        <segue destination="zdA-rK-MtB" kind="relationship" relationship="viewControllers" id="Duq-aG-jBw"/>
+                        <segue destination="yBB-eP-v9j" kind="relationship" relationship="viewControllers" id="gfO-9I-Hzm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Czi-Ce-p2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-396" y="285"/>
+        </scene>
+        <!--聊天-->
+        <scene sceneID="QMk-qJ-txE">
+            <objects>
+                <viewController title="聊天" id="zdA-rK-MtB" customClass="ChattingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tqL-KZ-CU4"/>
+                        <viewControllerLayoutGuide type="bottom" id="nsk-b6-Wgp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uxq-xR-rq0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="聊天" image="menu_chat" selectedImage="menu_chat_on" id="2BP-QB-Uky">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ewG-zP-UzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-396" y="1052"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu_chat" width="93" height="49"/>
+        <image name="menu_chat_on" width="93" height="49"/>
+        <image name="menu_find" width="93" height="49"/>
+        <image name="menu_love" width="93" height="49"/>
+        <image name="menu_love_on" width="93" height="49"/>
+        <image name="menu_me" width="93" height="49"/>
+        <image name="menu_me_on" width="93" height="49"/>
+    </resources>
 </document>

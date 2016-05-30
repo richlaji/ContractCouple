@@ -1,23 +1,24 @@
 //
-//  MainViewController.m
+//  ChattingViewController.m
 //  ContractCouple
 //
 //  Created by 张泽昕 on 16/5/30.
 //  Copyright © 2016年 张泽昕. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "ChattingViewController.h"
 
-@interface MainViewController ()
+@interface ChattingViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation ChattingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.tabBarItem.selectedImage = [[UIImage imageNamed:@"menu_chat_on"]
+                                  imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
 - (void)didReceiveMemoryWarning {
