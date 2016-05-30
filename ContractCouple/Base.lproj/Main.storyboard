@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rBa-gr-QGT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8sd-qZ-wmc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -68,11 +68,31 @@
             </objects>
             <point key="canvasLocation" x="-396" y="-424"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="j68-Ks-9Jy">
+            <objects>
+                <navigationController id="8sd-qZ-wmc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EzL-vB-XC2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rBa-gr-QGT" kind="relationship" relationship="rootViewController" id="MZf-QZ-4Iz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0VK-jm-9PP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1251" y="285"/>
+        </scene>
         <!--Main View Controller-->
         <scene sceneID="SLR-LV-MsE">
             <objects>
                 <tabBarController id="rBa-gr-QGT" customClass="MainViewController" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="oEs-xK-1Vw">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="zpL-Km-9y4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uXi-rk-JKh"/>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="LgD-m6-bYL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

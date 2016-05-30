@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		3D0ABF571CFBD9A8003ADCCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF561CFBD9A8003ADCCA /* main.m */; };
 		3D0ABF5A1CFBD9A8003ADCCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF591CFBD9A8003ADCCA /* AppDelegate.m */; };
-		3D0ABF5D1CFBD9A8003ADCCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF5C1CFBD9A8003ADCCA /* ViewController.m */; };
 		3D0ABF601CFBD9A8003ADCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ABF5E1CFBD9A8003ADCCA /* Main.storyboard */; };
 		3D0ABF621CFBD9A8003ADCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ABF611CFBD9A8003ADCCA /* Assets.xcassets */; };
 		3D0ABF651CFBD9A8003ADCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ABF631CFBD9A8003ADCCA /* LaunchScreen.storyboard */; };
+		3D0ABF6E1CFBDD7B003ADCCA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF6D1CFBDD7B003ADCCA /* MainViewController.m */; };
+		3D0ABF711CFBE262003ADCCA /* LovingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF701CFBE262003ADCCA /* LovingViewController.m */; };
+		3D0ABF741CFBE27E003ADCCA /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF731CFBE27E003ADCCA /* DiscoverViewController.m */; };
+		3D0ABF771CFBE2B8003ADCCA /* ChattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF761CFBE2B8003ADCCA /* ChattingViewController.m */; };
+		3D0ABF7A1CFBE2CD003ADCCA /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABF791CFBE2CD003ADCCA /* MeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		3D0ABF561CFBD9A8003ADCCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D0ABF581CFBD9A8003ADCCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D0ABF591CFBD9A8003ADCCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D0ABF5B1CFBD9A8003ADCCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D0ABF5C1CFBD9A8003ADCCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D0ABF5F1CFBD9A8003ADCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D0ABF611CFBD9A8003ADCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0ABF641CFBD9A8003ADCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D0ABF661CFBD9A8003ADCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0ABF6C1CFBDD7B003ADCCA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ContractCouple/MainViewController.h; sourceTree = "<group>"; };
+		3D0ABF6D1CFBDD7B003ADCCA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ContractCouple/MainViewController.m; sourceTree = "<group>"; };
+		3D0ABF6F1CFBE262003ADCCA /* LovingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LovingViewController.h; path = ContractCouple/LovingViewController.h; sourceTree = "<group>"; };
+		3D0ABF701CFBE262003ADCCA /* LovingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LovingViewController.m; path = ContractCouple/LovingViewController.m; sourceTree = "<group>"; };
+		3D0ABF721CFBE27E003ADCCA /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverViewController.h; path = ContractCouple/DiscoverViewController.h; sourceTree = "<group>"; };
+		3D0ABF731CFBE27E003ADCCA /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverViewController.m; path = ContractCouple/DiscoverViewController.m; sourceTree = "<group>"; };
+		3D0ABF751CFBE2B8003ADCCA /* ChattingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChattingViewController.h; path = ContractCouple/ChattingViewController.h; sourceTree = "<group>"; };
+		3D0ABF761CFBE2B8003ADCCA /* ChattingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChattingViewController.m; path = ContractCouple/ChattingViewController.m; sourceTree = "<group>"; };
+		3D0ABF781CFBE2CD003ADCCA /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = ContractCouple/MeViewController.h; sourceTree = "<group>"; };
+		3D0ABF791CFBE2CD003ADCCA /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = ContractCouple/MeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,7 @@
 		3D0ABF491CFBD9A8003ADCCA = {
 			isa = PBXGroup;
 			children = (
+				3D0ABF7B1CFBE2E0003ADCCA /* ViewController */,
 				3D0ABF541CFBD9A8003ADCCA /* ContractCouple */,
 				3D0ABF531CFBD9A8003ADCCA /* Products */,
 			);
@@ -60,8 +73,6 @@
 			children = (
 				3D0ABF581CFBD9A8003ADCCA /* AppDelegate.h */,
 				3D0ABF591CFBD9A8003ADCCA /* AppDelegate.m */,
-				3D0ABF5B1CFBD9A8003ADCCA /* ViewController.h */,
-				3D0ABF5C1CFBD9A8003ADCCA /* ViewController.m */,
 				3D0ABF5E1CFBD9A8003ADCCA /* Main.storyboard */,
 				3D0ABF611CFBD9A8003ADCCA /* Assets.xcassets */,
 				3D0ABF631CFBD9A8003ADCCA /* LaunchScreen.storyboard */,
@@ -77,6 +88,23 @@
 				3D0ABF561CFBD9A8003ADCCA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D0ABF7B1CFBE2E0003ADCCA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ABF6C1CFBDD7B003ADCCA /* MainViewController.h */,
+				3D0ABF6D1CFBDD7B003ADCCA /* MainViewController.m */,
+				3D0ABF6F1CFBE262003ADCCA /* LovingViewController.h */,
+				3D0ABF701CFBE262003ADCCA /* LovingViewController.m */,
+				3D0ABF721CFBE27E003ADCCA /* DiscoverViewController.h */,
+				3D0ABF731CFBE27E003ADCCA /* DiscoverViewController.m */,
+				3D0ABF751CFBE2B8003ADCCA /* ChattingViewController.h */,
+				3D0ABF761CFBE2B8003ADCCA /* ChattingViewController.m */,
+				3D0ABF781CFBE2CD003ADCCA /* MeViewController.h */,
+				3D0ABF791CFBE2CD003ADCCA /* MeViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0ABF5D1CFBD9A8003ADCCA /* ViewController.m in Sources */,
+				3D0ABF741CFBE27E003ADCCA /* DiscoverViewController.m in Sources */,
 				3D0ABF5A1CFBD9A8003ADCCA /* AppDelegate.m in Sources */,
+				3D0ABF7A1CFBE2CD003ADCCA /* MeViewController.m in Sources */,
+				3D0ABF6E1CFBDD7B003ADCCA /* MainViewController.m in Sources */,
 				3D0ABF571CFBD9A8003ADCCA /* main.m in Sources */,
+				3D0ABF771CFBE2B8003ADCCA /* ChattingViewController.m in Sources */,
+				3D0ABF711CFBE262003ADCCA /* LovingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,7 @@
 				3D0ABF6B1CFBD9A8003ADCCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
